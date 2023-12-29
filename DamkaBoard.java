@@ -9,17 +9,18 @@ public class DamkaBoard {
 		
 
 		for (int i = 1 ; i<= n ; i++){	
+			System.out.println(" ") ;
 			for(int j = 1 ; j <= n+n ; j++){
 				if((j+i)%2 == 0){
 					System.out.print("* ") ;
 				}
 		
 				else{
-					System.out.print(" ") ;
+					System.out.print("  ") ;
 				}
 				
 			}
-			System.out.println(" ") ;
+			
 		}
 
 
